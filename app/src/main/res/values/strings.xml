@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Car service</string>
+    <string name="location_permission_title">Location</string>
+    <string name="location_permission_message">Location permission is needed in order to show user location.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings_location_message">Please go to settings and turn on location</string>
+    <string name="no_items_available">There are no info available.</string>
+    <string name="engine_type">Engine type:</string>
+    <string name="interior">Interior:</string>
+    <string name="exterior">Exterior:</string>
+    <string name="fuel">Fuel:</string>
+    <string name="vin">VIN:</string>
+    <string name="name">Name:</string>
+</resources>

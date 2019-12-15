@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/item_car_background"
+    android:layout_marginBottom="16dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Name: HH-GO8522"
+        style="@style/CarInfoTextStyle"/>
+
+    <TextView
+        android:id="@+id/engine_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Engine type: CE"
+        style="@style/CarInfoTextStyle"/>
+
+    <TextView
+        android:id="@+id/interior"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/engine_type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Interior - UNACCEPTABLE"
+        style="@style/CarInfoTextStyle"/>
+
+    <TextView
+        android:id="@+id/exterior"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/interior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Exterior - UNACCEPTABLE"
+        style="@style/CarInfoTextStyle"/>
+
+    <TextView
+        android:id="@+id/fuel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/exterior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Fuel: 42"
+        style="@style/CarInfoTextStyle"/>
+
+    <TextView
+        android:id="@+id/vin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fuel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="VIN: WME4513341K565439"
+        style="@style/CarInfoTextStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--{
+         "address":"Lesserstraße 170, 22049 Hamburg",
+         "coordinates":[
+            10.07526,
+            53.59301,
+            0
+         ],
+         "engineType":"CE",
+         "exterior":"UNACCEPTABLE",
+         "fuel":42,
+         "interior":"UNACCEPTABLE",
+         "name":"HH-GO8522",
+         "vin":"WME4513341K565439"
+      },-->
